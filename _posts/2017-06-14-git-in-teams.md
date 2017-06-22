@@ -22,3 +22,8 @@ Git popularity can be tracked down to it being used in some large open source pr
 [image]
 
 You spawn a branch, you add commits there. You keep the multiple commits on the branch, as they help you do recording the steps you take. You issue a PR. When everyone is happy a **rebase on top of master** happens. Some time ago this would mean you do `rebase -i origin/master` and there, in the interactive mode, you say you want all of the commits squashed. Nowadays Github, Bitbucket and Gitlab all provide an option to do the squash from the UI, in some cases you still need to change the parent of the commit yourself though.
+
+links:
+
+* http://learngitbranching.js.org/
+
